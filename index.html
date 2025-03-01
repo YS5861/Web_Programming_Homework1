@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Homepage</title>
+</head>
+<style>
+    ol {
+        list-style-position: inside;
+    }
+
+    ul {
+        align-items: center;
+        list-style-position: inside;
+    }
+
+    body {
+        background: #89d4dc;
+    }
+
+    table {
+        vertical-align: middle;
+    }
+</style>
+
+<body>
+
+    <!-- Header Bölümü -->
+    <header align="center">
+        <h1>kodu yazan kişi</h1>
+        <h3>Computer Engineer</h3>
+    </header>
+
+    <!-- Navigasyon Menüsü (Nav) -->
+    <nav align="center">
+        <ul>
+            <li><a href="#hakkinda">Hakkında</a></li>
+            <li><a href="#programlamadilleri">Programlama Dilleri</a></li>
+            <li><a href="#iletisim">İletişim</a></li>
+            <li><a href="#iletisimformu">İletişim Formu</a></li>
+        </ul>
+    </nav>
+
+    <!-- Karadeniz Teknik Üniversitesi Resmi ve Bağlantı -->
+    <section align="center">
+        <h2>Karadeniz Teknik Üniversitesi</h2>
+        <a href="https://www.ktu.edu.tr/bilgisayar" target="_blank">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyoH2-3QBw6URj6_hLTjKRBZbTJO4G5-hRVw&s"
+                alt="Karadeniz Teknik Üniversitesi" width="300" height="300" />
+        </a>
+    </section>
+
+    <!-- Hakkında Bölümü -->
+    <section align="center" >
+        <h2>Hakkında</h2>
+        <p>Ben Karadeniz Teknik Üniversitesi Bilgisayar Mühendisliği bölümü öğrencisiyim .</p>
+    </section>
+
+    <!-- Programlama Dilleri -->
+    <section align="center" >
+        <h2>Programlama Dilleri</h2>
+        <ol>
+            <li>Python</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>Haskell</li>
+            <li>Java</li>
+            <li>Appendix C</li>
+        </ol>
+    </section>
+
+    <!-- Article Bölümü (Özgeçmiş Yazısı) -->
+    <article align="center">
+        <h2>Hakkımda Bir Makale</h2>
+        <p>Benim için yazılım mühendisliği sadece bir meslek değil,
+            aynı zamanda bir tutkudur. Kendimi geliştirmek ve yeni teknolojiler öğrenmek için sürekli çaba sarf
+            ediyorum.
+            Bilgisayar mühendisliği bölümü öğrencisi olarak, çeşitli yazılım dillerini öğreniyorum ve projeler üzerinde
+            çalışıyorum.</p>
+        <!-- bukısmı aslında lorem ipsum ile doldurmayı planlamıştım ancak editörümde ekli olan yapay zeka kısa bir metin önerdi onu kullandım-->
+    </article>
+
+    <!-- İletişim Bilgileri -->
+    <section align="center" id="iletisim">
+        <h2>İletişim</h2>
+        <ul>
+            <li>Telefon: +99 123 456 78 99</li>
+            <li>LinkedIn: <a href="#" target="_blank">Linkedin</a></li>
+            <li>Email: <a href="mailto:#" target="_blank">engineer@gmail.com</a></li>
+        </ul>
+    </section>
+
+    <!-- İletişim Formu -->
+    <section align="center" id="iletisimformu">
+        <h2>İletişime Geçmek İçin</h2>
+        <form method="post" action="#">
+            <table align="center" ; style="border-collapse: collapse; text-align: center;">
+                <tr>
+                    <td><label for="name">İsim:</label></td>
+                    <td><input type="text" id="name" name="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">E-posta:</label></td>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td ><input type="submit" value="Gönder"></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+
+    <!-- Footer Bölümü -->
+    <footer align="center">
+        <p>© 2025 YSG</p>
+    </footer>
+</body>
+
+</html>
